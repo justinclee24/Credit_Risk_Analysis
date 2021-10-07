@@ -52,3 +52,4 @@ The purpose of this analysis is to determine predictions as to whether credit ca
 
 
 ## Summary 
+In conclusion, most all balanced accuracy scores aside from the easy ensemble method make these models unattractive in order to create effective predictions. Easy ensemble ADABoost Classifier, however, stands out in this regard with a nice BAS of 0.925. Its precision for predicting bad credit loans is very low (0.07), which is concerning, because this means the model does not do a good job at predicting bad loans correctly. However, every other metric among its precision and recall report is impressive, making this model the best candidate to implement for further editing and predicting.
